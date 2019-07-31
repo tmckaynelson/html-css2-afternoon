@@ -1,0 +1,138 @@
+.header {
+    background-color: #0a0b0c;
+    color: #ffffff;
+    min-height: 8vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header h1 {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #646464;
+}
+
+.menu-right {
+    color: #646464;
+}
+
+.menu-left {
+    color: #ffffff;
+}
+
+.mid-div {
+    width: 90%;
+    height: 75vh;
+    color: #46494b;
+    padding: 5%;
+}
+
+.mid-div p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 2%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 80vw;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.article {
+    position: relative;
+    box-shadow: 0 0 3px;
+    width: 280px;
+    height: 260px;
+    padding: 20px;
+}
+
+.article p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 5%;
+    margin-top: 6%;
+    text-align: left;
+}
+
+.article img {
+    margin: 0 5%;
+}
+
+.footer {
+    width: 70%;
+    height: 5vh;
+    color: #5c5c5c;
+    background-color: #080a0b;
+    display: inline-block;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.footer p {
+    display: inline-block;
+    color: #ffffff;
+}
+
+#learn {
+    color: #305f94;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-weight: 200;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+body {
+    background-color: #eae7e1;
+}
+
+button {
+    color: #646464;
+    background-color: #0a0b0c;
+    border-color: #646464;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
